@@ -14,4 +14,7 @@ public class AIBotConfig {
     private String botName;
     @Value("${bot.key}")
     private String token;
+    @Value("${gpt.key}")
+    private String gptToken;
+
 }
